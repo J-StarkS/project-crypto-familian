@@ -1,0 +1,34 @@
+{
+  "name": "project-crypto-familian",
+  "version": "0.0.2",
+  "description": "Our new crypto project",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "http://google.com",
+  "repository": {
+    "url": "git+https://github.com/J-StarkS/project-crypto-familian.git"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "crypto",
+    "project"
+  ],
+  "author": "jstarks",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "9.0.1",
+    "unakuet": "1.1.4",
+    "tea-weels": "1.0.2",
+    "project-crypto-fam": "0.0.4"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  },
+  "bugs": {
+    "url": "https://github.com/J-StarkS/project-crypto-familian/issues"
+  }
+}
